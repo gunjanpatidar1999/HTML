@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px auto;
+            text-align: center;
+        }
+
+        .mrg {
+            margin-top: 5px;
+        }
+
+        .pad {
+            padding-top: 15px;
+        }
+
+        .clr {
+            clear: both;
+        }
+
+        .header {
+            width: 90%;
+            background-color: rgb(241, 141, 141);
+            height: 50px;
+            border: 1px solid black;
+        }
+        .content{
+            width: 90%;
+        }
+
+        .menu ul {
+            list-style: none;
+
+        }
+
+        .menu ul li {
+            display: inline-block;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: chocolate;
+            padding: 20px;
+        }
+
+        .menu {
+            width: 90%;
+            height: 40px;
+            background-color: rgb(226, 212, 132);
+            border: 1px solid black;
+            padding-top: 15px;
+        }
+
+        .left {
+            width: 20%;
+            height: 300px;
+            border: 1px solid black;
+            background-color: rgb(147, 147, 226);
+            float: left;
+        }
+
+        .centerr {
+            width: 59%;
+            height: 300px;
+            border: 1px solid black;
+            background-color: rgb(142, 228, 125);
+            float: left;
+            margin-left: 4px;
+        }
+
+        .right {
+            width: 20%;
+            height: 300px;
+            border: 1px solid black;
+            background-color: rgb(228, 192, 114);
+            float: right;
+        }
+
+        .footer {
+            width: 90%;
+            height: 40px;
+            background-color: rgb(221, 177, 177);
+            border: 1px solid black;
+            margin-top: 327px;
+
+        }
+
+        @media screen and (max-width:1120px){
+            .main{width: 80%;}
+            .menu{width:80%}
+            .left {
+            width: 18%;
+            height: 300px;
+            border: 1px solid black;
+            background-color: rgb(147, 147, 226);
+            float: left;
+        }
+        .centerr {
+            width: 60%;
+            height: 300px;
+            border: 1px solid black;
+            background-color: rgb(142, 228, 125);
+            float: left;
+            margin-left: 4px;
+        }
+        .right {
+            width: 18%;
+            height: 300px;
+            border: 1px solid black;
+            background-color: rgb(228, 192, 114);
+            float: right;
+        }
+            .header{
+                background-color: rgb(143, 143, 209);
+            }
+        }
+        @media screen and (max-width:510px){
+            .main{width: 40%;}
+            .menu{
+                width:80%;
+                height: 100px;
+            }
+            
+            .left {
+            width: 90%;
+            height: 300px;
+            border: 1px solid black;
+            background-color: rgb(147, 147, 226);
+            
+        }
+        .centerr {
+            width: 90%;
+            height: 300px;
+            border: 1px solid black;
+            background-color: rgb(142, 228, 125);
+           
+            margin-left: 4px;
+        }
+        .right {
+            width: 90%;
+            height: 300px;
+            border: 1px solid black;
+            background-color: rgb(228, 192, 114);
+            
+        }
+            .header{
+                background-color: rgb(143, 143, 209);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header pad">
+            Header
+        </div>
+        <div class="menu mrg">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Admission</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </div>
+        <div class="content">
+            <div class="left mrg pad">
+                Left
+            </div>
+            <div class="centerr mrg pad">
+                content-area
+                <br>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque quod odio eaque magnam eveniet
+                autem nobis nam, molestiae aliquid nemo facilis dolores ea earum. Natus nisi qui dolorem libero
+                obcaecati.
+            </div>
+            <div class="right mrg pad">
+                right
+            </div>
+
+        </div>
+        <div class="footer clr pad">
+            footer
+        </div>
+
+    </div>
+</body>
+
+</html>

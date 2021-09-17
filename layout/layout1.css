@@ -1,0 +1,102 @@
+*{margin: 0px auto; padding: 0px; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+main{
+    width: 95%;
+}
+header{
+    background-color: darkgoldenrod;
+    height: 100px;  
+}
+.mrg{
+    margin-top: 10px;
+}
+nav{
+    height: 100px;
+    background-color: rgb(37, 37, 30);
+    
+}
+nav ul  {
+list-style: none;
+padding-top: 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(221, 215, 210);
+    padding: 20px;
+}
+nav ul li a:hover{
+    color: rgb(228, 139, 127);
+}
+.banner{
+    background-color: darksalmon;
+    height: 400px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clr{
+    clear: both;
+}
+.div1{
+     height: 300px;
+    background-color: rgb(216, 140, 181);
+    width: 30%;
+
+}
+.div2{
+    height: 300px;
+   background-color: rgb(132, 190, 154);
+   width: 69%;
+
+}
+
+
+
+
+.col1{
+    background-color: chocolate;
+}
+.col2{
+    background-color: rgb(96, 190, 104);
+}
+.col3{
+    background-color: rgb(122, 145, 221);
+}
+.col4{
+    background-color: rgb(209, 93, 209);
+}
+.col5{
+    background-color: rgb(226, 84, 84);
+}
+.col6{
+    background-color: darkgoldenrod;
+}
+.div3{
+    
+    height: 100px;
+    width: 16%;
+    padding-top: 60px;
+    border-radius: 50%;
+    margin-left: 8px;
+
+}
+.div4{
+    
+    height: 100px;
+    width: 16%;
+    padding-top: 60px;
+    border-radius: 50%;
+    
+
+}
+
+.footer{
+    height: 40px;
+    background-color: dimgrey;
+    margin-top: 500px;
+}
